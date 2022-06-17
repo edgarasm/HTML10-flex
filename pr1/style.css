@@ -1,6 +1,31 @@
+/* Common css ============= */
+
 body {
-  /* background-color: coral; */
+  background-color: #f8f8f8;
 }
+
+.section-subtitle {
+  color: #0779e4;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+}
+
+.section-title {
+  text-align: center;
+  tab-size: 2rem;
+}
+
+.section {
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+
+p {
+  color: #999;
+}
+
+/* Header ============= */
 
 .header {
   background-color: #0779e4;
@@ -29,4 +54,26 @@ body {
 
 .nav-link:hover {
   background-color: #4995dc;
+}
+
+/* Services ============= */
+
+.services-cards {
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 15px;
+}
+
+.services-cards .card {
+  background-color: #fff;
+  flex-basis: 33%;
+  padding: 1.5em;
+}
+
+.card-title {
+  color: #0779e4;
+}
+
+.card-link {
+  color: #0779e4;
 }
