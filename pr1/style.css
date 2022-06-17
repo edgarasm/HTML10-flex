@@ -99,14 +99,10 @@ p {
 /* Blue bar ========= */
 
 .blue-bar {
-  background-color: rgb(10, 10, 153);
-  background-image: linear-gradient(
-      to right,
-      rgb(75, 75, 230),
-      rgb(75, 75, 230)
-    ),
+  /* background-color: rgb(10, 10, 153); */
+  background-image: linear-gradient(to right, rgb(5, 5, 138), rgb(5, 5, 138)),
     url(https://www.strath.ac.uk/media/1newwebsite/centres/centreforlifelonglearning/1600x600/creative_writing_image_for_Blaze_1600_x_600.jpg);
-  /* opacity: 0.6; */
+  opacity: 0.8;
   background-size: cover;
   background-blend-mode: overlay;
   color: #fff;
